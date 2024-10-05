@@ -9,21 +9,58 @@
   </head>
   <body>
     <nav>
-      <a href="/">Home</a>
-      <a href="/page2.html" aria-current="page">Other page</a>
+      <a href="/">HTML</a>
+      <a href="/page2.html" aria-current="page">CSS</a>
     </nav>
 
     <main>
 
-      <h2>CSS INTRODUCTION</h2>
-      <p>CSS is the language we use to style an HTML document.
+      <h2>INTRODUCTION TO CSS</h2>
+      <p>CSS is the language we use to style an HTML document.<br>
+      CSS describes how HTML elements should be displayed.</p>
+    
 
-        CSS describes how HTML elements should be displayed.</p>
-    
-      <h4>THE CSS "BOX-SIZING PROPERTY"</h4>
+      <h4>THE CSS UNIVERSAL SELECTOR</h4>
+      <p>The universal selector (*) selects all HTML elements on the page.</p>
+
+      
+      <h4>THE CSS "BOX-SIZING" PROPERTY</h4>
       <p>The CSS box-sizing property allows us to include the padding and border in an element's total width and height.</p>
+      <p>If you set "box-sizing: border-box" on an element, padding and border are included in the width and height</p>
+      
+      <h4>THE CSS "MARGIN" PROPERTY</h4>
+      <p>The CSS margin properties are used to create space around elements, outside of any defined borders.</p>
+      <h4>HTML "Body element" set to : "margin: 0"</h4>
+
+      <p>Purpose: Most browsers have default margins for the body (usually around 8px). <br>
+      By setting margin: 0, you eliminate this default spacing, which is often needed for layout precision and to avoid unintended gaps.</p>
+
+      <h4>HTML "Body element" set to : "color: black"</h4>
+      <p>Purpose: Ensures that all text elements (such as paragraphs, headings, etc.) will have black text unless otherwise specified by other styles.</p>
+
+      <h4>HTML "Body element" set to : "background-color: white"</h4>
+      <p>Purpose: It ensures the webpage's background is white</p>
+
+      <h4>HTML "NAV element" set to : "display: flex"</h4>
+      <p>Purpose: Flexbox is used here to create a responsive layout for the navigation bar.</p>
+
+      <h4>HTML "NAV element" set to : "flex-wrap: wrap"</h4>
+      <p>Purpose: When the window is resized or viewed on smaller screens, the navigation items (e.g., links) will break into multiple lines instead of overflowing or shrinking too small to be readable. It improves responsiveness and accessibility.</p>
+
+      <h4>HTML "NAV element" set to : "align-items: center"</h4>
+      <p>Purpose: Ensures that the items in the navigation bar are centered vertically, so they appear evenly aligned and balanced regardless of their size or content.</p>
+
+      <h4>HTML "NAV element" set to : "justify-content: center"</h4>
+      <p>Purpose: By centering the items horizontally, it ensures that the navigation bar looks balanced, with the items aligned in the middle, whether there are only a few items or many.</p>
+
+      <h4>HTML "NAV element" set to : "padding: 0.5rem"</h4>
+      <p>Purpose: The padding adds space inside the "nav" element between the content (navigation items) and the edge of the navigation bar. This creates a buffer so that the items don't touch the edges, making the navigation bar visually cleaner.</p>
+
+      <h4>HTML "NAV element" set to : "gap: 0.5rem"</h4>
+      <p>Purpose: The gap creates space between the individual items in the navigation bar, making them easier to distinguish and more visually appealing.</p>
     
-    
+      <h4>HTML "NAV element" set to : "border-bottom: solid 1px #aaa"</h4>
+    <p>Purpose: The bottom border visually separates the navigation bar from the rest of the content below it. It creates a subtle visual distinction, adding structure to the layout without being too bold.</p>
     </main>
   </body>
 </html>

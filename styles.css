@@ -1,19 +1,19 @@
-/* CSS - INTRODUCTION */
+/* CSS - UNIVERSAL SELECTOR */
 
 * {
-  box-sizing: border-box;/* The CSS box-sizing property allows us to include the padding and border in an element's total width and height. */
+  box-sizing: border-box; /* If you set box-sizing: border-box; on an element, padding and border are included in the width and height */
 }
 
 
 body {
-  margin: 0; /* Overwrite default styling */
+  margin: 0; /* Overwrite default margin */
   font-family: system-ui, sans-serif;
   color: black;
   background-color: white;
 }
 
-nav {
-  display: flex;
+nav { /* This block defines the styling for the entire navigation bar. */
+  display: flex; /* The navigation bar uses a flexbox layout, making it flexible and responsive.*/
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
@@ -23,7 +23,7 @@ nav {
   background-color: #eee;
 }
 
-nav a {
+nav a { /* This block defines the styling for individual navigation links ("a" elements) inside the "nav".*/
   display: inline-block;
   min-width: 9rem;
   padding: 0.5rem;
@@ -34,7 +34,7 @@ nav a {
   color: #555;
 }
 
-nav a[aria-current='page'] {
+nav a[aria-current='page'] { /*This block targets specific links that represent the current page. */
   color: #000;
   background-color: #d4d4d4;
 }
